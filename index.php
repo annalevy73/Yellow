@@ -1,7 +1,9 @@
 <?php
-  include ('header.php');
+  get.header();
   ?>
 
 <section> <h3> Titre swag </h3> </section>
 
-  <?php include ('footer.php');?>
+  <?php   get.footer();
+  /**include ('footer.php');*/
+   ?>
