@@ -11,6 +11,16 @@
 
 <?php endwhile; endif; ?>
 
+<?php
+
+$d = "l, F jS, Y";
+$comment_date = get_comment_date( $d, $comment_ID );
+echo $comment_date;
+
+// This will output something similar to "Saturday, November 6th, 2010".
+
+?>
+
   <?php   get_footer();
   /**include ('footer.php');*/
    ?>
