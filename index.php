@@ -11,7 +11,7 @@
 
 <?php endwhile; endif; ?>
 
-<p>Publié le : <?php the_date('j F, Y'); ?> at <?php the_time('g\h i'); ?></p>
+<p>Publié le : <?php the_date('j F, Y'); ?> à <?php the_time('G:i a'); ?></p>
 
   <?php   get_footer();
   /**include ('footer.php');*/
