@@ -10,7 +10,7 @@
   </head>
   <header>
     <h1>
-      Salut c'est cool
+      
     </h1>
   </header>
 
