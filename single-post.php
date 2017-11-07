@@ -11,10 +11,10 @@
       </a>
   </section>
 
-  <p>
-    <?php the_excerpt(); ?>
-    <img src="screenshot.png" alt="Photo poney" title="Photo de poney"/>
-  </p>
+  <?php the_excerpt(); ?>
+    <p>
+      <img src="screenshot.png" alt="Photo poney" title="Photo de poney"/>
+    </p>
 
   <!--AFFICHE LES COMMENTAIRES-->
   <?php
@@ -25,25 +25,25 @@
     endif;
     ?>
 
-  <?php comments_number('aucun commentaire','un commentaire','% commentaires'); ?>
+  <?php comments_number('Aucun commentaire','Un commentaire','% commentaires'); ?>
 
-<p>Publié le : <?php the_date('j F, Y'); ?> à <?php the_time('G:i a'); ?></p>
+  <p>Publié le : <?php the_date('j F, Y'); ?> à <?php the_time('G:i a'); ?></p>
 
-<div>
-  <li class="widget"> <?php _e('Meta');?>
-    <ul>
-      <?php wp_register(); ?>
-      <li><?php wp_loginout();?></li>
-      <?php wp_meta();?>
-    </ul>
-  </li>
+  <div>
+    <li class="widget"> <?php _e('Meta');?>
+      <ul>
+        <?php wp_register(); ?>
+        <li><?php wp_loginout();?></li>
+        <?php wp_meta();?>
+      </ul>
+    </li>
 
-  <li class="widget">
-    <a href="<?php bloginfo('home');?>">
-             <?php _e('Home','');?>
-    </a>
-  </li>
-</div>
+    <li class="widget">
+      <a href="<?php bloginfo('home');?>">
+               <?php _e('Home','');?>
+      </a>
+    </li>
+  </div>
 
   <?php   get_footer();
   /**include ('footer.php');*/
