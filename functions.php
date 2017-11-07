@@ -2,7 +2,7 @@
 /* Titre WP */
 
 <?php
-  functions theme_support(){
+  function theme_support(){
 
     add_theme_support('title-tag')
   }
