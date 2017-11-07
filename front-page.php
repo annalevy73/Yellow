@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
-<div>
-  Blablablo
-</div>
+  <div>
+    Blablablo
+  </div>
 
 <?php get_footer(); ?>
