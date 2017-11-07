@@ -2,6 +2,20 @@
   /* Template Name: Actualités */
 ?>
 
+$args = array(
+      'port_type' => 'post',
+);
+
+$query= new WP_Query();
+
+<?php if($query -> have_posts()
+
+        while($query -> have_posts()
+
+      $query -> the_post()
+    )
+  )
+
   <?php get_header(); ?>
 
   <!--The Loop-->
