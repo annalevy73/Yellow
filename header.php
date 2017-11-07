@@ -1,20 +1,23 @@
+<!DOCTYPE html>
 <html>
   <head>
-      <link rel="stylesheet" href="style.css"/>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css"/>
 
-      <?php bloginfo('name');?>
-      <?php bloginfo('description');?>
-      <?php wp_head(); ?>
+    <?php bloginfo('name');?>
+    <?php bloginfo('description');?>
+    <?php wp_head(); ?>
   </head>
 
-  <header>
+  <body>
 
-    <h1>BIENVENU SUR MON SITE</h1>
+    <header>
+      <h1>BIENVENU SUR MON SITE</h1>
 
-    <nav>
-      <?php wp_page_menu('show_home = 1'); ?>
-    </nav>
+      <nav>
+        <?php wp_page_menu('show_home = 1'); ?>
+      </nav>
+    </header>
 
-  </header>
-
+  </body>
 </html>
