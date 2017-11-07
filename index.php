@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Mon site WordPress</title>
+  </head>
+
   <?php define( 'WP_USE_THEMES', false );
       get_header(); ?>
 
@@ -23,3 +31,5 @@
   <?php   get_footer();
   /**include ('footer.php');*/
    ?>
+
+</html>
