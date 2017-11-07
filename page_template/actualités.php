@@ -6,6 +6,10 @@
     <title>Mon site WordPress</title>
   </head>
 
+  <?php
+    /* Template: Actualités */
+  ?>
+
   <?php define( 'WP_USE_THEMES', false );
       get_header(); ?>
 
