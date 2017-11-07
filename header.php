@@ -13,7 +13,7 @@
     <h1>BIENVENU SUR MON SITE</h1>
 
     <nav>
-      <?php up_page_menu('show_home=1'); ?>
+      <?php up_page.menu('show_home=1'); ?>
     </nav>
   </header>
 
