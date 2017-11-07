@@ -2,7 +2,7 @@
       get_header(); ?>
 
 <!--The Loop-->
-<?php ( have_posts() ) : ( have_posts() ) : the_post(); ?>
+<?php the_post(); ?>
 
   <section>
     <h3>
@@ -24,8 +24,6 @@
 
     endif;
     ?>
-
-<?php endwhile; endif; ?>
 
 <p>Publié le : <?php the_date('j F, Y'); ?> à <?php the_time('G:i a'); ?></p>
 
