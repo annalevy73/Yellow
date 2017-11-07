@@ -8,8 +8,9 @@
 <section>
   <h3>
     <a href="<?php the_permalink(); ?>">
-      <?php the_title(); ?> Titre du swag </h3> </section>
+      <?php the_title(); ?> Titre du swag </h3>
     </a>
+</section>
 
   <p> <?php the_content(); ?>
     <img src="screenshot.png" alt="Photo poney" title="Photo de poney"/>
