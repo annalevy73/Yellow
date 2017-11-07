@@ -1,3 +1,4 @@
+<!--AFFICHE LE HEADER-->
 <?php define( 'WP_USE_THEMES', false );
       get_header(); ?>
 
@@ -45,6 +46,5 @@
     </li>
   </div>
 
-  <?php   get_footer();
-  /**include ('footer.php');*/
-   ?>
+  <!--AFFICHE LE FOOTER-->
+  <?php   get_footer(); ?>
