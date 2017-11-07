@@ -2,7 +2,7 @@
       get_header(); ?>
 
 <!--The Loop-->
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+<?php ( have_posts() ) : ( have_posts() ) : the_post(); ?>
 
   <section>
     <h3>
