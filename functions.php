@@ -1,6 +1,4 @@
 
-
-
 <?php
   /* Titre WP */
   function theme_support(){
