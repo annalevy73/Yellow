@@ -12,7 +12,7 @@
     <h1>BIENVENU SUR MON SITE</h1>
 
     <nav>
-      <?php wp_page.menu('show_home = 1'); ?>
+      <?php wp_page_menu('show_home = 1'); ?>
     </nav>
 
   </header>
