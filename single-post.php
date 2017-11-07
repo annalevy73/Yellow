@@ -25,6 +25,8 @@
     endif;
     ?>
 
+  <?php comments_number('aucun commentaire','un commentaire','% commentaires'); ?>
+
 <p>Publié le : <?php the_date('j F, Y'); ?> à <?php the_time('G:i a'); ?></p>
 
 <div>
