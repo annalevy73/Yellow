@@ -16,6 +16,15 @@
     <img src="screenshot.png" alt="Photo poney" title="Photo de poney"/>
   </p>
 
+  <!--AFFICHE LES COMMENTAIRES-->
+  <?php
+    if (comments_open() || get_comments_number() ):
+
+      comments_template();
+
+    endif;
+    ?>
+
 <?php endwhile; endif; ?>
 
 <p>Publié le : <?php the_date('j F, Y'); ?> à <?php the_time('G:i a'); ?></p>
