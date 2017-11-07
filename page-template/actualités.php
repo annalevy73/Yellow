@@ -25,5 +25,3 @@
   <?php   get_footer();
   /**include ('footer.php');*/
    ?>
-
-</html>
